@@ -37,5 +37,5 @@ mv "$temp_file" ~/.zshrc
 cat <<'EOF' >> ~/.zshrc
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.oh-my-zsh/custom/themes/powerlevel10k/config/p10k-lean-8colors.zsh ]] || source ~/.oh-my-zsh/custom/themes/powerlevel10k/config/p10k-lean-8colors.zsh
+[[ ! -f ~/.oh-my-zsh/custom/themes/powerlevel10k/config/p10k-rainbow.zsh ]] || source ~/.oh-my-zsh/custom/themes/powerlevel10k/config/p10k-rainbow.zsh
 EOF
