@@ -12,4 +12,4 @@ sed -i '/^source "\$ZSH\/oh-my-zsh.sh"/i fpath+=${ZSH_CUSTOM:-${ZSH:-~\/.oh-my-z
 
 sed -i 's/plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/' ~/.zshrc
 
-sed -i '/^ZSH_THEME/c\ZSH_THEME="powerlevel10k"' ~/.zshrc
+sed -i '/^ZSH_THEME/c\ZSH_THEME="powerlevel10k/powerlevel10k"' ~/.zshrc
